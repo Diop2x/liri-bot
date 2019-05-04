@@ -52,4 +52,4 @@ Using the `fs` Node package, LIRI will take the text inside of random.txt and th
 
 Right now it will run `spotify-this-song` for "I Want it That Way,".
 
-Screenshots are located in the "screenshot folder of repo"
+<img width="1123" alt="spotify" src="https://user-images.githubusercontent.com/45421927/57173666-89f3f500-6e01-11e9-8a97-4aade42a5a99.png">

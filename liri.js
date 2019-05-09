@@ -27,11 +27,13 @@ switch (action) {
 	break;
 };
 
+
 function concert(inputs) {
+
 	var artist = process.argv.slice(3).join(" ")
     console.log(artist);
    
-    var queryURL = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=unccbootcamp";
+    var queryURL = "https://rest.bandsintown.com/artists/" + userInput + "/events?app_id=unccbootcamp";
 
     request(queryURL, function (error, response, body) {
         if (error) console.log(error);
@@ -48,7 +50,7 @@ function spotify(inputs) {
 
 	var spotify = new Spotify(keys.spotifyKeys);
 		if (!inputs){
-        	inputs = 'Old Town Road';
+        	inputs = "The Sign";
     	}
 		spotify.search({ type: 'track', query: inputs }, function(err, data) {
 			if (err){

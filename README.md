@@ -51,3 +51,10 @@ If the user doesn't type a movie in, the program will output data for the movie 
 Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
 Right now it will run `spotify-this-song` for "I Want it That Way,".
+
+<img width="1123" alt="spotify" src="https://user-images.githubusercontent.com/45421927/57173666-89f3f500-6e01-11e9-8a97-4aade42a5a99.png">
+
+<img width="1123" alt="movie" src="https://user-images.githubusercontent.com/45421927/57173678-b0b22b80-6e01-11e9-9d20-7b007aa0fc4a.png">
+
+<img width="1123" alt="dowhatitsays" src="https://user-images.githubusercontent.com/45421927/57173679-b576df80-6e01-11e9-9c95-6539b6bb2cb2.png">
+
